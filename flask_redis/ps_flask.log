@@ -1,0 +1,3 @@
+NAME                  IMAGE             COMMAND                  SERVICE   CREATED         STATUS        PORTS
+flask_redis-redis-1   redis:alpine      "docker-entrypoint.s…"   redis     2 seconds ago   Up 1 second   6379/tcp
+flask_redis-web-1     flask_redis-web   "flask run --debug"      web       2 seconds ago   Up 1 second   0.0.0.0:8000->5000/tcp, [::]:8000->5000/tcp

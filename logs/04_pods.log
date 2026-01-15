@@ -1,0 +1,7 @@
+NAME                        READY   STATUS    RESTARTS   AGE     IP            NODE       NOMINATED NODE   READINESS GATES
+flask-app-645c9c4bf-2rdlg   1/1     Running   0          9m31s   10.244.0.14   minikube   <none>           <none>
+flask-app-645c9c4bf-9nmdg   1/1     Running   0          9m32s   10.244.0.13   minikube   <none>           <none>
+flask-app-645c9c4bf-crq7w   1/1     Running   0          9m37s   10.244.0.10   minikube   <none>           <none>
+flask-app-645c9c4bf-gs6kf   1/1     Running   0          9m37s   10.244.0.11   minikube   <none>           <none>
+flask-app-645c9c4bf-rx6t2   1/1     Running   0          9m37s   10.244.0.12   minikube   <none>           <none>
+redis-59bd98c78b-vltxz      1/1     Running   0          38m     10.244.0.4    minikube   <none>           <none>

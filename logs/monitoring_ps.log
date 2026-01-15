@@ -1,0 +1,4 @@
+NAME         IMAGE                    COMMAND                  SERVICE      CREATED          STATUS          PORTS
+blackbox     prom/blackbox-exporter   "/bin/blackbox_expor…"   blackbox     14 minutes ago   Up 14 minutes   0.0.0.0:9115->9115/tcp, [::]:9115->9115/tcp
+grafana      grafana/grafana          "/run.sh"                grafana      14 minutes ago   Up 14 minutes   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp
+prometheus   prom/prometheus          "/bin/prometheus --c…"   prometheus   14 minutes ago   Up 14 minutes   0.0.0.0:9090->9090/tcp, [::]:9090->9090/tcp
